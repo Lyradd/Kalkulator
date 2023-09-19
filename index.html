@@ -1,10 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    g
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Kalkulator Sederhana</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+
+  <p>Kalkulator Sederhana</p>
+  <body>
+    <div>
+      <input type="number" id="number1" />
+      <select id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+      </select>
+      <input type="number" id="number2" />
+      <span>=</span>
+      <span id="hasil"></span>
+      <br />
+      <button id="submit">submit</button>
+      <br /><br />
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
